@@ -1,0 +1,110 @@
+input, label, datalist, textarea, legend {
+    margin-top: 8px;
+    padding: 5px;
+    margin-left: auto;
+    font-family: monospace;
+    font-size: 17px;
+
+}
+
+.required::after{
+    content:" *";
+    color: red;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background: gray;
+    color: #FFF;
+    padding: 2px 6px;
+    border-collapse: separate;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+input[type=submit] {
+    margin-left: 40%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding:10px 25px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+
+input[type=reset] {
+    padding:10px 25px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+
+input[type=submit]:hover {
+    background:#aca;
+    
+}
+
+input[type=reset]:hover {
+    background:rgb(165, 165, 165);
+    
+}
+
+
+form{
+margin-left: auto;
+margin-right: auto;
+background-color: rgb(224, 224, 224);
+width: 50%;
+border: 6px solid rgb(109, 0, 94);
+
+}
+
+.sal{
+    padding-left: 20px;
+}
+
+
+
+#confirmedError {
+
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+
+#confirmedText {
+
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: bold;
+    
+
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: rgb(197, 197, 197);
+}
